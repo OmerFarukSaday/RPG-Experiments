@@ -1,33 +1,3 @@
-# Treat C# files as C#
+# Force everything to be either C# or ignored
+* linguist-vendored=true
 *.cs linguist-language=C#
-
-# Ignore Unity metadata and project files
-*.meta linguist-vendored=true
-*.unity linguist-vendored=true
-*.prefab linguist-vendored=true
-*.shader linguist-vendored=true
-*.asset linguist-vendored=true
-
-# Ignore build, temp, library folders
-[Ll]ibrary/** linguist-vendored=true
-[Tt]emp/** linguist-vendored=true
-[Oo]bj/** linguist-vendored=true
-[Bb]uild/** linguist-vendored=true
-[Bb]uilds/** linguist-vendored=true
-[Ll]ogs/** linguist-vendored=true
-[Uu]ser[Ss]ettings/** linguist-vendored=true
-
-# Ignore typical Unity plugins/binaries
-Assets/Plugins/** linguist-vendored=true
-Assets/External/** linguist-vendored=true
-*.dll linguist-vendored=true
-*.jar linguist-vendored=true
-*.unitypackage linguist-vendored=true
-
-# Ignore media and large assets
-*.png linguist-vendored=true
-*.jpg linguist-vendored=true
-*.fbx linguist-vendored=true
-*.mp3 linguist-vendored=true
-*.wav linguist-vendored=true
-*.ogg linguist-vendored=true
