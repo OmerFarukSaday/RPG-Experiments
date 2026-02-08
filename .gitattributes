@@ -1,0 +1,6 @@
+*.cs linguist-language=C#
+*.meta linguist-vendored=true
+*.unity linguist-vendored=true
+*.prefab linguist-vendored=true
+*.shader linguist-vendored=true
+*.asset linguist-vendored=true
