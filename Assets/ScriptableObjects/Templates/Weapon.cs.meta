@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: a8c02fe2399463743b1aa1cf56917839
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - WeaponTier: {instanceID: 0}
+  - TierDB: {fileID: 11400000, guid: fa587c19cddde264fb07e4c796fb14d7, type: 2}
+  - ItemInDroppedForm: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

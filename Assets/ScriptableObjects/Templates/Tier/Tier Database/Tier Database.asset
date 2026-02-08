@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f2253af7e49c440abf506d2ff03464, type: 3}
+  m_Name: Tier Database
+  m_EditorClassIdentifier: Assembly-CSharp::TierDatabase
+  TierList:
+  - {fileID: 11400000, guid: 2e9cd8e6bb279fc46a58e166f0f1675b, type: 2}
+  - {fileID: 11400000, guid: 93147a79941f9b1448572ef8b4e389b9, type: 2}
+  - {fileID: 11400000, guid: 94fe3e8a34724274eac778d087a4f81d, type: 2}
+  - {fileID: 11400000, guid: 3825afd93b43d2243a45294855600293, type: 2}

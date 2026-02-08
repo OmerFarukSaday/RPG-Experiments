@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 043c3d0c6e57a3d4caeb7d09fb7e44f4, type: 3}
+  m_Script: {fileID: 11500000, guid: a8c02fe2399463743b1aa1cf56917839, type: 3}
   m_Name: Dragonbone Sword
-  m_EditorClassIdentifier: Assembly-CSharp::Sword
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
   WeaponName: 
-  Damage: 18
-  FireRate: 3
-  Range: 5
+  Damage: 0
+  FireRate: 0
+  Range: 0
   ItemInDroppedForm: {fileID: 0}
