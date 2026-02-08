@@ -20,5 +20,5 @@ MonoBehaviour:
   Damage: 0
   FireRate: 3
   Range: 3
-  ItemInDroppedForm: {fileID: 0}
+  ItemInDroppedForm: {fileID: 2463159571549884694, guid: c46a9ea5d45c5ed449e833990867fa41, type: 3}
   ProjectilePrefab: {fileID: 0}
