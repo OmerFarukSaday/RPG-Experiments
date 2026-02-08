@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8c02fe2399463743b1aa1cf56917839, type: 3}
   m_Name: Poison-Tipped Sword
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  Type: 0
   WeaponName: 
+  WeaponTier: {fileID: 11400000, guid: 94fe3e8a34724274eac778d087a4f81d, type: 2}
+  TierDB: {fileID: 11400000, guid: fa587c19cddde264fb07e4c796fb14d7, type: 2}
+  WeaponTier_Number: 3
   Damage: 0
-  FireRate: 0
-  Range: 0
+  FireRate: 3
+  Range: 3
   ItemInDroppedForm: {fileID: 0}
+  ProjectilePrefab: {fileID: 0}

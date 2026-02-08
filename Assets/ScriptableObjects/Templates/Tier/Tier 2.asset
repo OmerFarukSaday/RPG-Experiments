@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d547cfbb83c8d294eb07b725293f0478, type: 3}
   m_Name: Tier 2
   m_EditorClassIdentifier: Assembly-CSharp::Tier
+  TierNumber: 2
