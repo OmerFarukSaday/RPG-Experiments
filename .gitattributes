@@ -1,14 +1,14 @@
-# Force C# detection for .cs files
+# Treat C# files as C#
 *.cs linguist-language=C#
 
-# Mark Unity meta/project files as vendored (ignored for language stats)
+# Ignore Unity metadata and project files
 *.meta linguist-vendored=true
 *.unity linguist-vendored=true
 *.prefab linguist-vendored=true
 *.shader linguist-vendored=true
 *.asset linguist-vendored=true
 
-# Mark typical generated / editor / build folders as vendored
+# Ignore build, temp, library folders
 [Ll]ibrary/** linguist-vendored=true
 [Tt]emp/** linguist-vendored=true
 [Oo]bj/** linguist-vendored=true
@@ -17,24 +17,17 @@
 [Ll]ogs/** linguist-vendored=true
 [Uu]ser[Ss]ettings/** linguist-vendored=true
 
-# Plugins, packages and common binary assets (vendor)
+# Ignore typical Unity plugins/binaries
 Assets/Plugins/** linguist-vendored=true
 Assets/External/** linguist-vendored=true
 *.dll linguist-vendored=true
 *.jar linguist-vendored=true
-*.so linguist-vendored=true
 *.unitypackage linguist-vendored=true
-*.zip linguist-vendored=true
 
-# Large model/asset/media files — not source code
+# Ignore media and large assets
 *.png linguist-vendored=true
 *.jpg linguist-vendored=true
-*.jpeg linguist-vendored=true
-*.tga linguist-vendored=true
 *.fbx linguist-vendored=true
 *.mp3 linguist-vendored=true
 *.wav linguist-vendored=true
 *.ogg linguist-vendored=true
-
-# Mark truly generated code so Linguist can ignore it
-Assets/Generated/** linguist-generated=true
