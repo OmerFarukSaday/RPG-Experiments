@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4783e6980e5ceb4bb15b6c9e8a2db53
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FirstPossibleTier: {fileID: 11400000, guid: 2e9cd8e6bb279fc46a58e166f0f1675b, type: 2}
+  - SecondPossibleTier: {fileID: 11400000, guid: 93147a79941f9b1448572ef8b4e389b9, type: 2}
+  - ThirdPossibleTier: {fileID: 11400000, guid: 94fe3e8a34724274eac778d087a4f81d, type: 2}
+  - FourthPossibleTier: {fileID: 11400000, guid: 3825afd93b43d2243a45294855600293, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

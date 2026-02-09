@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Tier 4
   m_EditorClassIdentifier: Assembly-CSharp::Tier
   TierNumber: 4
+  WhatWeaponsDoesThisTierBelongTo:
+  - {fileID: 11400000, guid: 0691781a83ad06547aeb8ac563cce5b6, type: 2}
+  - {fileID: 11400000, guid: 114848670e4399443babca1a2a76b258, type: 2}
+  - {fileID: 11400000, guid: aa1ad3d4a0038584aa1a52e9475499d1, type: 2}
+  - {fileID: 11400000, guid: 8cb1902e5312eeb42acba18fb9d3372c, type: 2}
+  - {fileID: 11400000, guid: 5092414eabe32c5468a28c6855cda13e, type: 2}

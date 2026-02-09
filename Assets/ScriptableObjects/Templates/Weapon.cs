@@ -21,6 +21,7 @@ public class Weapon : ScriptableObject
 
     private void OnValidate()
     {
+        WeaponName = name;
         switch (Type)
         {
             case WeaponType.Sword: FireRate = 3; Range = 3; break;

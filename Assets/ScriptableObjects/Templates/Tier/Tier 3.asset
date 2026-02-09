@@ -13,3 +13,8 @@ MonoBehaviour:
   m_Name: Tier 3
   m_EditorClassIdentifier: Assembly-CSharp::Tier
   TierNumber: 3
+  WhatWeaponsDoesThisTierBelongTo:
+  - {fileID: 11400000, guid: 41fc47f771102894886b7ca513bc7a4a, type: 2}
+  - {fileID: 11400000, guid: b580e105ba33c9e4081eb918d1d05987, type: 2}
+  - {fileID: 11400000, guid: 4c22ccaf39d5aa446a95fc046964ae87, type: 2}
+  - {fileID: 11400000, guid: 3c3928d739f72414db4f7722a7bf0510, type: 2}
