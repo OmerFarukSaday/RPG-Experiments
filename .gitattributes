@@ -22,3 +22,11 @@ MemoryCaptures/**       linguist-vendored=true
 
 # Force language for C# files (usually unnecessary, but harmless)
 *.cs                    linguist-language=C#
+
+
+
+*.wl     linguist-vendored
+*.wls    linguist-vendored
+*.nb     linguist-vendored
+*.cdf    linguist-vendored
+*.wl*    linguist-vendored
