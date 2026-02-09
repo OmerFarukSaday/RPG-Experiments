@@ -1,23 +1,24 @@
-# Ignore Unity-generated and non-code assets for language stats
-*.meta linguist-generated=true
-*.unity linguist-generated=true
-*.prefab linguist-generated=true
-*.asset linguist-generated=true
-*.mat linguist-generated=true
-*.anim linguist-generated=true
-*.controller linguist-generated=true
-*.overrideController linguist-generated=true
-*.playable linguist-generated=true
-*.shadergraph linguist-generated=true
-*.asmdef linguist-generated=true
-*.asmref linguist-generated=true
+# --- Do NOT mark everything as vendored! ---
 
-# Optional: mark common Unity folders as vendored
-[Ll]ibrary/** linguist-vendored=true
-[Tt]emp/** linguist-vendored=true
-[Oo]bj/** linguist-vendored=true
-[Bb]uild/** linguist-vendored=true
-[Bb]uilds/** linguist-vendored=true
+# Generated / cache / build outputs (exclude from language stats)
+Library/**              linguist-vendored=true
+Temp/**                 linguist-vendored=true
+Obj/**                  linguist-vendored=true
+Build/**                linguist-vendored=true
+Logs/**                 linguist-vendored=true
+MemoryCaptures/**       linguist-vendored=true
 
-# Explicitly affirm C#
-*.cs linguist-language=C#
+# Common IDE / editor files to exclude
+.vscode/**              linguist-vendored=true
+.vs/**                  linguist-vendored=true
+
+# Unity packages exported as .unitypackage or other binaries
+*.unitypackage          linguist-vendored=true
+*.dll                   linguist-vendored=true
+*.exe                   linguist-vendored=true
+
+# Optional: treat .meta as vendored (they're Unity metadata)
+*.meta                  linguist-vendored=true
+
+# Force language for C# files (usually unnecessary, but harmless)
+*.cs                    linguist-language=C#
