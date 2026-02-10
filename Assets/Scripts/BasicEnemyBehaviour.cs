@@ -1,8 +1,11 @@
 using UnityEngine;
 
-public class WeaponDrawButton : MonoBehaviour
+public class BasicEnemyBehaviour : MonoBehaviour
 {
+    public int CurrentHealth;
+    public int MaxHealth;
     public LootTable LootTableUsed;
+    public GameObject ProjectilePrefab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,7 +18,7 @@ public class WeaponDrawButton : MonoBehaviour
         
     }
 
-    public void ButtonClicked()
+    public void OnDeath()
     {
         LootTableUsed.DrawATier();
     }

@@ -5,14 +5,14 @@ using System.Collections.Generic;
 public class Tier : ScriptableObject
 {
     public int TierNumber;
-    public List<Weapon> WhatWeaponsDoesThisTierBelongTo;
+    public List<Weapon> WhatWeaponsDoesThisTierHave;
     private int ChosenWeapon_Number;
     private Weapon ChosenWeapon;
 
     public Weapon DrawAWeapon()
     {
-        ChosenWeapon_Number = Random.Range(0, WhatWeaponsDoesThisTierBelongTo.Count);
-        ChosenWeapon = WhatWeaponsDoesThisTierBelongTo[ChosenWeapon_Number];
+        ChosenWeapon_Number = Random.Range(0, WhatWeaponsDoesThisTierHave.Count);
+        ChosenWeapon = WhatWeaponsDoesThisTierHave[ChosenWeapon_Number];
         return ChosenWeapon;
     }
 }
