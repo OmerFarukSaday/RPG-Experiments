@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5091349907276894659}
   - component: {fileID: 8490410931444308781}
   - component: {fileID: 802959425425722617}
+  - component: {fileID: -1872973636276034092}
   m_Layer: 0
   m_Name: Hardened Bone Sword Pickup
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.1, z: 0.5}
+  m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3899122560818028529}
@@ -113,6 +114,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1872973636276034092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465112771752411942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23115247265d564689536aa67e9de27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pickup
+  SourceImage: {fileID: 21300000, guid: bacbddaab05412c4d8e09a6ba7ffe68e, type: 3}
+  ItemInSOForm: {fileID: 11400000, guid: 1ead9b90a507f2048a57a26855cccaea, type: 2}
 --- !u!1 &3695931257556577554
 GameObject:
   m_ObjectHideFlags: 0

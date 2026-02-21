@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7690956777083257088}
   - component: {fileID: 2579127929616515555}
   - component: {fileID: 6897263607069064195}
+  - component: {fileID: -8375778047402381972}
   m_Layer: 0
   m_Name: Ice Coated Sword Pickup
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.1, z: 0.5}
+  m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3739971813189605975}
@@ -113,6 +114,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-8375778047402381972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311736916201856952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23115247265d564689536aa67e9de27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pickup
+  SourceImage: {fileID: 21300000, guid: be60dee8e0288224ea817fc47ba47a06, type: 3}
+  ItemInSOForm: {fileID: 11400000, guid: b580e105ba33c9e4081eb918d1d05987, type: 2}
 --- !u!1 &6995165548716039193
 GameObject:
   m_ObjectHideFlags: 0

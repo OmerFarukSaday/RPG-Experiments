@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 900566560343113917}
   - component: {fileID: 3536399460316682717}
   - component: {fileID: 7468019537634219346}
+  - component: {fileID: 4858886821860174452}
   m_Layer: 0
   m_Name: Stone Sword Pickup
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.1, z: 0.5}
+  m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8787878799932779676}
@@ -113,6 +114,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4858886821860174452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6715883087308307418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23115247265d564689536aa67e9de27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pickup
+  SourceImage: {fileID: 21300000, guid: efc60ab3b34f58549b23558ce9e092fc, type: 3}
+  ItemInSOForm: {fileID: 11400000, guid: 1baaa9fbc52e505498c18a5739d9441b, type: 2}
 --- !u!1 &7738760908944222027
 GameObject:
   m_ObjectHideFlags: 0
